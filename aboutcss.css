@@ -1,0 +1,137 @@
+/* aboutcss.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin-left: 20px;
+}
+
+
+.header {
+    background-color: #754ef9;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Introduction section styles */
+.introduction-section {
+    padding: 75px;
+    margin-left: none;
+    font-size: 20px;
+}
+
+.introduction-section h1,
+.location-section h1,
+.education h2 {
+    color: #333;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.introduction-section p,
+.location-section p,
+.timeline-item span,
+.timeline-item p {
+    color: #555;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* Timeline styles */
+.timeline {
+    margin-top: 20px;
+}
+
+.title-wrapper .icon-box .book-outline h3 {
+    font-size: 50px;
+}
+
+.title-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon-box {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.timeline-list {
+    list-style-type: none;
+}
+
+.timeline-item {
+    margin-bottom: 20px;
+}
+
+.timeline-item-title {
+    color: #333;
+}
+
+.timeline-text {
+    color: #555;
+}
+
+/* Add styles for the timeline if necessary */
+
+/* Footer styles */
+.content-footer {
+    background-color: #754ef9;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    display: block;
+}
+
+.social {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar a {
+        margin-top: 10px;
+    }
+
+    .toggle {
+        display: none;
+    }
+}
